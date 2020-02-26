@@ -1,0 +1,13 @@
+determinar os numeros minimo e máximo de elementos em um cluster
+determinar o numero de iterações
+fazer clusterização inicial
+contabilizar o número de clusters acima da quantidade máxima (A)
+contabilizar o número de clusters que estão abaixo da quantidade minima de elementos (B)
+se a A for igual  a 0 e B igual a 0, encerrar! Do contrario, continuar
+armazenar clusters e elementos que se enquadram nos criterios
+agrupar clusters com numeros menores
+se o numero for menor que a quantidade minima e não houver clusters maiores, encerrar!
+se o numero for menor que a quantidade maxima e não houver clusters maiores, clusterizar esse grupo!
+se o numero for menor que a quantidade minima e houver clusters maiores, juntar com um dos clusters e clusterizar
+selecionar clusters grandes (com numero maior que criterio) e clusterizá-los
+
